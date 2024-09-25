@@ -9,16 +9,35 @@ main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: antiquewhite;
 }
 
 article {
     flex: 2;
     overflow: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 aside {
     flex: 1;
     overflow: auto;
+
+}
+
+h2 {
+color: blue;
+}
+
+h1 {
+    color: red
+    }
+
+footer {
+    background-color: beige;
+    
+}
+
+blockquote {
 
 }
